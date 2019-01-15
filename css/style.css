@@ -1,0 +1,368 @@
+body
+{
+	font-family: 'Roboto', sans-serif !important;
+	overflow-x: hidden;
+}
+
+.top-bar
+{
+	background-color: #87509c;
+	padding-top: 60px;
+	padding-bottom: 142px;
+}
+
+.top-bar .logo img
+{
+
+}
+
+.top-bar .navi
+{
+
+}
+
+.top-bar .navi ul
+{
+	margin-bottom: 0px;
+	display: flex;
+	list-style: none;
+	float: right
+}
+
+.top-bar .navi li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding-right: 40px;
+	font-size: 19px;
+}
+
+.top-bar .text
+{
+	text-align: center;
+	padding-top: 142px
+}
+
+.top-bar .text h2
+{
+	font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+.top-bar .text a
+{
+	text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    border: 1px solid #eb7d4b;
+    border-radius: 3px;
+    background-color: #eb7d4b;
+    padding: 25px 80px 25px 80px;
+}
+
+.services
+{
+	background-color: #17c2a4;
+	padding-top: 122px;
+	padding-bottom: 130px;
+}
+
+.services .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #14a58c;
+}
+
+.services .text-service
+{
+	text-align: center;
+}
+
+.services .text-service h1
+{
+	color: #fff;
+	padding-bottom: 23px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    /* border-bottom: 4.5px solid #14a58c; */
+}
+
+.services .text-service p
+{
+	color: #fff;
+	padding-top: 23px;
+	margin-bottom: 0px;
+    font-size: 21px;
+}
+
+.services .icon-text
+{
+	padding-top: 86px;
+	text-align: center;
+}
+
+.services .flag img
+{
+	width: 121px;
+	height: 124px;
+}
+
+.services .pen img
+{
+	width: 89px;
+	height: 129px;
+}
+
+.services .gear img
+{
+	width: 160px;
+	height: 125px;
+}
+
+.services .rocket img
+{
+	width: 95px;
+	height: 132px;
+}
+
+.services .icon-text h6
+{
+	padding-top: 61px;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.services .icon-text p
+{
+	margin-bottom: 0px;
+    padding-top: 28px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.team
+{
+	background-color: #e7f1f8;
+	padding-top: 122px;
+	padding-bottom: 129px;
+}
+
+.team .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #c8d9e5;
+}
+
+.team .text-team
+{
+	text-align: center;
+}
+
+.team .text-team h1
+{
+	color: #3c4761;
+	padding-bottom: 23px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.team .text-team p
+{
+	color: #3c4761;
+	padding-top: 25px;
+	margin-bottom: 0px;
+    font-size: 21px;
+}
+
+.team .img-text
+{
+	padding-top: 86px;
+	text-align: center;
+}
+
+.team .flag img
+{
+	width: 121px;
+	height: 124px;
+}
+
+.team .pen img
+{
+	width: 89px;
+	height: 129px;
+}
+
+.team .gear img
+{
+	width: 160px;
+	height: 125px;
+}
+
+.team .rocket img
+{
+	width: 95px;
+	height: 132px;
+}
+
+.team .img-text h6
+{
+	padding-top: 41px;
+    color: #3c4761;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.team .img-text p
+{
+	margin-bottom: 0px;
+    padding-top: 31px;
+    color: #3c4761;
+    font-size: 16px;
+}
+
+.team .img-text .span p
+{
+	color: #30bae7;
+	font-size: 16px;
+	padding-top: 17px;
+	margin-bottom: 0px;
+}
+
+.team .social img
+{
+	padding-left: 14px;
+    padding-top: 30px;
+}
+
+.skill
+{
+	background-color: #fff;
+	padding-top: 119px;
+	padding-bottom: 124px;
+}
+
+.skill .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #dfe8ed;
+}
+
+.skill .text-skill
+{
+	text-align: center;
+}
+
+.skill .text-skill h1
+{
+	color: #3c4761;
+	padding-bottom: 23px;
+	margin-bottom: 0px;
+	font-weight: 600;
+    font-size: 40px;
+}
+
+.skill .text-skill p
+{
+	color: #3c4761;
+	padding-top: 26px;
+	margin-bottom: 0px;
+    font-size: 19px;
+}
+
+.skill .img-skill
+{
+	text-align: center;
+}
+
+.skill .img-skill
+{
+	padding-top: 85px;
+}
+
+.skill .img-skill p
+{
+	padding-top: 35px;
+    font-weight: 600;
+    color: #3c4761;
+	font-size: 23px;
+	margin-bottom: 0px;
+}
+
+.portfolio
+{
+padding-top: 121px;
+padding-bottom: 110px;
+background-color: #ffdd99;
+}
+
+.portfolio .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #e5c37f;
+}
+
+.portfolio .text-port
+{
+	text-align: center;
+}
+
+.portfolio .text-port h1
+{
+	margin-bottom: 0px;
+    padding-bottom: 22px;
+    color: #393939;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.portfolio .text-port p
+{
+	margin-bottom: 0px;
+    color: #534f46;
+    font-size: 19px;
+    padding-top: 22px;
+}
+
+.portfolio .button
+{
+	padding-top: 44px;
+}
+
+.portfolio .button a
+{
+	font-size: 19px;
+    font-weight: 500;
+    color: #393939;
+}
+
+.portfolio .box a
+{
+	border: 1px solid #ebc985;
+    background-color: #ebc985;
+    border-radius: 6px;
+	padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.portfolio .box a:hover
+{
+	background-color: #fff;
+	border-color: #fff;
+}
