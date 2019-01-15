@@ -33,8 +33,16 @@ body
 {
 	text-decoration: none;
 	color: #fff;
-	padding-right: 40px;
+	padding-right: 16px;
+    padding-left: 16px;
 	font-size: 19px;
+}
+
+.top-bar .navi li a:hover
+{
+	background-color: #643a79;
+	border-radius: 4px;
+	padding: 13px 17px 13px 17px;
 }
 
 .top-bar .text
@@ -346,23 +354,23 @@ background-color: #ffdd99;
 
 .portfolio .button a
 {
-	font-size: 19px;
+	font-size: 18px;
     font-weight: 500;
     color: #393939;
-}
-
-.portfolio .box a
-{
-	border: 1px solid #ebc985;
-    background-color: #ebc985;
-    border-radius: 6px;
-	padding: 10px 15px 10px 15px;
     text-decoration: none;
-    list-style: none;
+	padding: 13px 27px 13px 27px;
+    border-radius: 5px;
+    background-color: #ebc985;
+	margin: 0 4px;
+	
 }
 
 .portfolio .box a:hover
 {
 	background-color: #fff;
-	border-color: #fff;
+}
+
+.portfolio .box a.active
+{
+	background-color: #fff;
 }
