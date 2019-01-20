@@ -45,6 +45,14 @@ body
 	padding: 13px 17px 13px 17px;
 }
 
+/*.top-bar .navi a.active
+{
+	background-color: #643a79;
+	border-radius: 4px;
+	padding-bottom: 13px;
+    padding-top: 13px;
+}*/
+
 .top-bar .text
 {
 	text-align: center;
@@ -98,7 +106,6 @@ body
 	padding-bottom: 23px;
     margin-bottom: 0px;
     font-size: 40px;
-    /* border-bottom: 4.5px solid #14a58c; */
 }
 
 .services .text-service p
@@ -311,9 +318,9 @@ body
 
 .portfolio
 {
-padding-top: 121px;
-padding-bottom: 110px;
-background-color: #ffdd99;
+	padding-top: 121px;
+	padding-bottom: 110px;
+	background-color: #ffdd99;
 }
 
 .portfolio .line
@@ -362,7 +369,6 @@ background-color: #ffdd99;
     border-radius: 5px;
     background-color: #ebc985;
 	margin: 0 4px;
-	
 }
 
 .portfolio .box a:hover
@@ -373,4 +379,271 @@ background-color: #ffdd99;
 .portfolio .box a.active
 {
 	background-color: #fff;
+}
+
+.portfolio .work-port 
+{
+	padding-top: 67px;
+	text-align: center;
+}
+
+.portfolio .work-port img
+{
+	height: 312px;
+	width: 514px;
+}
+
+.portfolio .work-port p
+{
+	margin-bottom: 0px;
+	padding-top: 30px;
+	color: #534f46;
+	font-size: 19px;
+}
+
+.portfolio .load-button
+{
+	padding-top: 85px;
+	text-align: center;
+}
+
+.portfolio .load-button a
+{
+	padding: 15px 30px 15px 30px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 500;
+	text-decoration: none;
+	background-color: #17c2a4;
+}
+
+.portfolio .load-button a:hover
+{
+	color: #17c2a4;
+	background-color: #fff;
+}
+
+.about
+{
+	padding-top: 120px;
+	padding-bottom: 128px;
+	background-color: #d74680;
+}
+
+.about .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #b73c6d;
+}
+
+.about .text-about
+{
+	text-align: center;
+}
+
+.about .text-about h1
+{
+	margin-bottom: 0px;
+    padding-bottom: 22px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about .text-about p
+{
+	margin-bottom: 0px;
+    color: #fff;
+    font-size: 19px;
+    padding-top: 22px;
+}
+
+.about .views
+{
+	padding-top: 70px;
+}
+
+.bg-image
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about .views-about p
+{
+	padding-top: 15px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.about .views-about h6
+{
+	font-size: 24px;
+	padding-top: 28px;
+	color: #fff;
+	margin-bottom: 0px;
+
+}
+
+.about .views-about .span p
+{
+	margin-bottom: 0px;
+	font-size: 19px;
+	color: #fac996;
+	padding-top: 10px;
+}
+
+.about .views .client
+{
+	padding-top: 150px;
+}
+
+.about .view-about p
+{
+    padding-right: 50px;
+    padding-top: 16px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.about .view-about h6
+{
+	font-size: 24px;
+	padding-top: 28px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.about .view-about .span p
+{
+	margin-bottom: 0px;
+	font-size: 19px;
+	color: #fac996;
+	padding-top: 10px;
+}
+
+.touch
+{
+	background-color: #3c5499;
+	padding-top: 120px;
+	padding-bottom: 115px;
+}
+
+.touch .line
+{
+	display: block;
+	margin: auto;
+	width: 88px;
+	height: 5px;
+	background-color: #273a71;
+}
+
+.touch .detail
+{
+	text-align: center;
+}
+
+.touch .detail h1
+{
+	margin-bottom: 0px;
+    padding-bottom: 22px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.touch .detail p
+{
+	color: #fff;
+	padding-top: 25px;
+	margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.touch .input
+{
+	padding-top: 80px;
+    text-align: center;
+}
+
+.touch input [placeholder=Your Name]
+{
+ 	color: #fff;
+}
+
+.touch input
+{
+	background-color: #273a71;
+    color: #fff;
+    border-color: #273a71;
+    border-radius: 4px;
+    padding: 11px 12px;
+    border: 0;
+}
+
+.touch .input .msg
+{
+	padding-top: 30px;
+}
+
+.touch .send
+{
+	padding-top: 60px;
+	text-align: center;
+}
+
+.touch .send a
+{
+	padding: 18px 42px 18px 42px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 500;
+	text-decoration: none;
+	background-color: #30bae7;
+}
+
+.links
+{
+	padding-top: 47px;
+	padding-bottom: 48px;
+	background-color: #344b8e;
+}
+
+.links .link
+{
+	text-align: center;
+}
+
+.links .link ul
+{
+	margin-bottom: 0px;
+	display: flex;
+	list-style: none;
+}
+
+.links .link li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding-right: 30px;
+    padding-left: 30px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.links .link li a:hover
+{
+	color: #30bae7;
 }
