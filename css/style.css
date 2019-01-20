@@ -577,24 +577,29 @@ body
     text-align: center;
 }
 
-.touch input [placeholder=Your Name]
+.touch input
 {
  	color: #fff;
 }
 
-.touch input
+.touch input, .touch textarea
 {
 	background-color: #273a71;
     color: #fff;
     border-color: #273a71;
     border-radius: 4px;
-    padding: 11px 12px;
-    border: 0;
+	padding: 25px 0 20px 25px;
+	border: 0;
+	width: 100%;
+}
+
+.touch input::placeholder, .touch textarea::placeholder{
+	color: #ffffff;
 }
 
 .touch .input .msg
 {
-	padding-top: 30px;
+	padding-top: 28px;
 }
 
 .touch .send
@@ -605,7 +610,7 @@ body
 
 .touch .send a
 {
-	padding: 18px 42px 18px 42px;
+	padding: 28px 86px 28px 86px;
 	border-radius: 4px;
 	color: #fff;
 	font-size: 19px;
@@ -639,8 +644,7 @@ body
 	color: #fff;
 	padding-right: 30px;
     padding-left: 30px;
-	font-size: 25px;
-	font-weight: 500;
+	font-size: 22px;
 }
 
 .links .link li a:hover
